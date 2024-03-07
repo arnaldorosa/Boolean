@@ -6,6 +6,81 @@
 
 
 .container {
-    width: 125px;
+    max-width: 1250px;
     margin: 0 auto;
 }
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+h1 {
+    color: palevioletred;
+}
+
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.description{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10;
+}
+
+
+.tab {
+    width: calc(100% / 3 - 30px);
+    float: left;
+    background-color: black;
+    margin: 15px;
+    margin-top: 40px;
+}
+
+
+.info>* {
+    display: block;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+
+.tab>img {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+
+.info {
+    font-size: 18px;
+    color: white;
+    float: left;
+    width: calc(100% - 100px);
+    margin-top: 15px;
+}
+
+
+.info>a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+
+.info>.nome {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
